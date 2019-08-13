@@ -15,8 +15,8 @@ Function Remove-UserProfile {
     If you don't specify this parameter it will not delete users that exist in the domain.
 
     .EXAMPLE
-    Remove-UserProfile -Days 30 -RemoveDomain
-    Remove-UserProfile -RemoveDomain -WhatIf #This will only list the profiles to delete and perform a whatif
+    Remove-UserProfile -Days 30 -RemoveDomainUser
+    Remove-UserProfile -RemoveDomainUser -WhatIf #This will only list the profiles to delete and perform a whatif
 
     .NOTES
     This was created to tidy up old and stale user profiles in windows servers that use up space. It can run on a schedule task
